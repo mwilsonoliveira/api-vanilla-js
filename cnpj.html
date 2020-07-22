@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>Teste de APIs</title>
+</head>
+<body>
+  <h1 class="greenHeader">Consulta CNPJ</h1>  
+
+  <br/>
+  
+  <div class="content">
+    <label>CNPJ</label><input type="text" id="inputCNPJ"/>
+    <button onclick="listaEmpresa()">Pesquisar</button>
+
+    <div id="returnCNPJ">
+
+    </div>
+  </div>
+
+  <button><a href="index.html">Voltar</a></button>
+
+
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="src/js/cnpj.js"></script>
+</body>
+</html>
