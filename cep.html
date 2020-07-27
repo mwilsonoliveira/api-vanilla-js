@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>Teste de APIs</title>
+</head>
+<body>
+  <h1 class="greenHeader">Consulta CEP</h1>  
+
+  <br/>
+  
+  <div class="content">
+    <label>CEP</label><input type="text" id="inputCEP"/>
+    <button onclick="listaCEP()">Pesquisar</button>
+
+    <div id="return">
+
+    </div>
+  </div>
+
+  <button><a href="index.html">Voltar</a></button>
+
+
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="src/js/cep.js"></script>
+</body>
+</html>
