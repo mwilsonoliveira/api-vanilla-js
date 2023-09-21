@@ -1,4 +1,4 @@
-# vanilla-api
+# api-vanilla-js
 Projeto com o objetivo de utilizar vanilla javascript para conectar às mais diversas APIs existentes.
 
 [Acesse aqui!](https://mwilsonoliveira.github.io/api-vanilla-js/)
